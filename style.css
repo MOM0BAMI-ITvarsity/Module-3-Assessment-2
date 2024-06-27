@@ -1,0 +1,321 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.body-home {
+    background-image: url('images/background\ 3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------HEADER PAGE-------*/
+.header {
+    background-image: url('images/stone.jpg');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i {
+    float: left;
+    color: red;
+    padding: 17px 0px 0px 17px;
+}
+
+.header img {
+    padding-right: 26px;
+    padding-top: 10px;
+    width: 275px;
+}
+
+/*--------------HOME PAGE------------*/
+
+#home-logo-img {
+    height: 229.5px;
+    width: 121px;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+#home-logo-txt {
+    width: 450px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    border-bottom: 3px solid gold;
+    display: block;
+    margin: auto;
+    margin-bottom: -10px;
+    width: 80%;
+}
+
+/*--------------ORDER PAGE------------*/
+
+.body-order {
+    background-image: url('images/backgound\ 4.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+#order {
+    padding-top: 50px;
+}
+
+/*-----Order PAGE Menu LIST-----*/
+
+.order-list a {
+    text-decoration: none;
+}
+
+.order-list-item {
+    border-bottom: 3px solid white;
+    margin: 38px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.order-list-item h1 {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.order-list-item i {
+    float: right;
+    color: black;
+}
+
+.order-list-item p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-top: -7px;
+    margin-bottom: 8px;
+}
+
+.home-menu-item:hover {
+    color: white;
+}
+
+.order-list-item:hover {
+    color: black;
+}
+
+/*--------------RECIPE PAGE------------*/
+
+#recipe {
+    padding-top: 50px;
+    margin: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+/*-------RECIPE DETAILS PAGE-------*/
+
+.recipe-details img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.recipe-details-serving {
+    float: left;
+    display: block;
+    line-height: 25px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.recipe-details-cost p {
+    font-size: 19px;
+    display: inline-block;
+    color: green;
+}
+
+.recipe-details h2 {
+    margin-bottom: 5px;
+    font-family: 'Georgia', serif;
+}
+
+.recipe-orderd {
+    text-align: center;
+}
+
+.recipe-orderd img {
+    width: 100%;
+}
+
+.recipe-orderd a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.recipe-orderd a:hover {
+    color: red;
+}
+
+.body-recipe {
+    background-image: url('images/paper.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid black;
+    font-family: 'Arial', sans-serif;
+}
+
+.button {
+    display: block;
+    width: 50%;
+    background-image: url('images/marbel.jpg');
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0;
+    font-family: 'Georgia', serif;
+}
+
+/*---------DRINKS PAGE-----------*/
+a.drinks-box {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    font-family: 'Arial', sans-serif;
+}
+
+.drinks-box img {
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.drinks-box h3 {
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: black;
+    font-family: 'Georgia', serif;
+}
+
+.drinks-box p {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: black;
+    font-family: 'Georgia', serif;
+}
+
+.drinks-box i {
+    float: right;
+    color: black;
+    margin-top: 32px;
+    padding-right: 13px;
+}
+
+/*---------RESPONSIVE LAYOUT-----------*/
+@media only screen and (min-width: 500px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals {
+        width: 60%;
+        margin: auto;
+    }
+
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #meals {
+        width: 40%;
+        margin: auto;
+    }
+
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .body-home {
+        background-image: url('images/background\ 1.jpg');
+    }
+
+    .body-order {
+        background-image: url('images/background\ 2.jpg');
+        color: black;
+    }
+}
